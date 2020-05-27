@@ -23,7 +23,15 @@ export default {
   ** Global CSS
   */
   css: [
-    'css/element-ondemand.css'
+    'element-ui/lib/theme-chalk/base.css',
+    'element-ui/lib/theme-chalk/loading.css',
+    'element-ui/lib/theme-chalk/message.css',
+    'element-ui/lib/theme-chalk/message-box.css',
+    'element-ui/lib/theme-chalk/radio-button.css',
+    'element-ui/lib/theme-chalk/button.css',
+    'element-ui/lib/theme-chalk/row.css',
+    'element-ui/lib/theme-chalk/col.css',
+    'element-ui/lib/theme-chalk/icon.css',
   ],
   /*
   ** Plugins to load before mounting the App

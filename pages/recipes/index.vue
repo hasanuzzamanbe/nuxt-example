@@ -18,7 +18,8 @@ export default {
             setTimeout(() => {
                 resolve(() => {
                     recipes: [
-                        {   id: 1,
+                        {
+                            id: 1,
                             title: "Chicken Jhal fry",
                             description: "This is spicy recipy",
                             img:
@@ -33,7 +34,7 @@ export default {
                         }
                     ];
                 });
-            }, 1500)
+            }, 1500);
         });
     }
 };

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="about-container">
+        <section class="about-container padding2rem">
             <h3>
                 {{msg}}
                 <el-button type="success">Test Button</el-button>
@@ -17,8 +17,8 @@ export default {
     }
 };
 </script>
-<style scoped>
-.about-container {
+<style>
+.padding2rem {
     padding: 2rem;
 }
 </style>

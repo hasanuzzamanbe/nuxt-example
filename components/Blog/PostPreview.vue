@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nuxt-link :to="id">
+        <nuxt-link :to="'posts/'+id">
             <article class="post-preview">
                 <div
                     :style="{backgroundImage: 'url(' + thumbnailImage + ')'}"
@@ -58,7 +58,7 @@ a {
 
 .post-preview-content {
     text-align: center;
-    padding: 1rem;
+    padding: 3rem;
 }
 @media (min-width: 35rem) {
     .post-preview {

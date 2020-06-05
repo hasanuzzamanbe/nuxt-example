@@ -105,5 +105,5 @@ dist
 
 # other
 .nuxt
-
+.DS_Store
 assets/.DS_Store
